@@ -1,3 +1,7 @@
+.container-monthpicker {
+  position: relative;
+  display: inline-block;
+}
 .picker-container {
   color: #333;
   background: #fff;
@@ -7,7 +11,8 @@
   width: 200px;
   border-radius: 5px;
   box-shadow: 1px 2px #f0f0f0;
-  position: relative;
+  position: absolute;
+
 }
 .title {
   margin: 0;
